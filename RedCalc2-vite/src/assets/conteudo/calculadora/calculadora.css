@@ -1,0 +1,126 @@
+.title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-peso{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input-velocidade{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="range"]{
+        margin-left: 10px;
+        margin-right: 5px;
+		width: 60% ;
+}
+
+
+.escolha-droga{
+    border: 1px solid #2b2d42 ;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #8d99ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.escolha-droga-titulo{
+    font-weight: bold;
+}
+
+.escolha-droga-drogas{
+    text-align: center;
+}
+
+input[type="button"]{
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #2b2d42;
+    color: white;
+    margin: 5px;
+}
+input[type="button"]:focus{
+    background-color: #ef233c;
+}
+
+.escolha-diluicao{
+    text-align: right;
+    border: 1px solid #2b2d42 ;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #8d99ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.escolha-diluicao-titulo{
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="number"]{
+    width: 30px;
+    font-weight: bolder;
+    border-radius: 6px;
+    border-color: #2b2d42;
+    background-color: white;
+    text-align: right;
+
+}
+
+.resultado-titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.resultado-card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+.resultado-dose{
+    font-weight: 900;
+    font-size: 20px;    
+    margin: 2px;
+}
+.resultado-dose-max{
+    color: #edf2f4;
+    font-size: 15px;
+    background-color:#8d99ae;
+    border: 2px solid #2b2d42 ;
+    margin: 2px;
+}
+.resultado-dose-min{
+    color: #edf2f4;
+    font-size: 15px;
+    background-color:#8d99ae;
+    border: 2px solid #2b2d42 ;
+    margin: 2px;
+}
